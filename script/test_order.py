@@ -25,7 +25,7 @@ class TestOrder:
         assert resp_order.json().get('msg') == "提交成功"
 
 
-    def test_order_error(self):
+    # def test_order_error(self):
         # 调用成功的登录接口
         # MtxLogin().login_success(self.session)
-        pass
+        # pass
