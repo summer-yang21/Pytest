@@ -1,9 +1,9 @@
 import allure
 import requests
 
-from api.loginApi import MtxLogin
-from api.orderApi import Order
-from api.payOrderApi import PayOrder
+from apiFrame.api.loginApi import MtxLogin
+from apiFrame.api.orderApi import Order
+from apiFrame.api.payOrderApi import PayOrder
 
 
 class TestPayOrder:

@@ -6,8 +6,8 @@
     def test_login(self,accouts, pwd, exp):
         url_login = self.ip + '/mtx/index.php?s=/index/user/login.html'
 '''
-from config import IP, HEADERS
-from tools.logger import GetLog
+from apiFrame.config import IP, HEADERS
+from apiFrame.tools.logger import GetLog
 import allure
 log = GetLog().get_logger()
 

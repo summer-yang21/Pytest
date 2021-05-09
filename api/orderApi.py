@@ -1,6 +1,6 @@
-import config
+import apiFrame.config
 # from config import JUMP_URL,IP
-from tools.logger import GetLog
+from apiFrame.tools.logger import GetLog
 import allure
 log = GetLog().get_logger()
 # 提交订单的接口做测试

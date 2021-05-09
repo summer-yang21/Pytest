@@ -1,5 +1,5 @@
-from tools.logger import GetLog
-import config
+from apiFrame.tools.logger import GetLog
+import apiFrame.config
 import allure
 log = GetLog().get_logger()
 

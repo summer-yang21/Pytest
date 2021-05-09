@@ -1,7 +1,7 @@
 import requests
 
-from api.orderApi import Order
-from api.loginApi import MtxLogin
+from apiFrame.api.orderApi import Order
+from apiFrame.api.loginApi import MtxLogin
 import allure
 class TestOrder:
     def setup_class(self):
