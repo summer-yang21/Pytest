@@ -1,8 +1,8 @@
-import apiFrame.config as config
+import config as config
 # from config import JUMP_URL,IP
-from apiFrame.tools.logger import GetLog
+from tools.logger import GetLog
 import configparser
-from apiFrame.tools.readIni import write_ini
+from tools.readIni import write_ini
 import allure
 log = GetLog().get_logger()
 # 提交订单的接口做测试

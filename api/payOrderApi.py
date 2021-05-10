@@ -1,7 +1,7 @@
-from apiFrame.tools.logger import GetLog
-import apiFrame.config as config
+from tools.logger import GetLog
+import config as config
 import allure
-from apiFrame.tools.readIni import read_ini
+from tools.readIni import read_ini
 log = GetLog().get_logger()
 
 

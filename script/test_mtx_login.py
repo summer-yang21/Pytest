@@ -1,6 +1,6 @@
 import requests
 
-from apiFrame.api.loginApi import MtxLogin
+from api.loginApi import MtxLogin
 
 
 class TestLogin:

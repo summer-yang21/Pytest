@@ -1,8 +1,8 @@
 import pytest
 import requests
 import allure
-from apiFrame.api.loginApi import MtxLogin
-from apiFrame.tools.analyze_data import analyze_data
+from api.loginApi import MtxLogin
+from tools.analyze_data import analyze_data
 
 class TestLogin:
     def setup_class(self):
