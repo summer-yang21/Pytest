@@ -8,8 +8,9 @@ def analyze_data(filename,key):
     :param key: test_login
     :return: 列表嵌套字典的数据格式
     '''
-    with open(config.DIR_NAME + r'\data\%s.yml' % filename, 'r', encoding='utf-8') as f:
+    with open(config.DIR_NAME + '/data/%s.yml' % filename, 'r', encoding='utf-8') as f:
         print(config.DIR_NAME)
+        print(f)
         data_list = list()
         yaml_data = yaml.load(f, Loader=yaml.FullLoader)
         # print(f'yaml_data的值是{yaml_data}')
