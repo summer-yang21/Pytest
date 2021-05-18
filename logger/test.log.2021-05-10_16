@@ -1,0 +1,17 @@
+2021-05-10 16:02:52,306 INFO [root] [payOrderApi.py (__init__:15] - 支付接口的url是http://121.42.15.146:9090/mtx/index.php?s=/index/order/pay/id/12724.html
+2021-05-10 16:02:52,308 INFO [root] [loginApi.py (__init__:18] - 登录的url地址是http://121.42.15.146:9090/mtx/index.php?s=/index/user/login.html
+2021-05-10 16:02:52,448 INFO [root] [orderApi.py (__init__:12] - 提交订单的url地址是http://121.42.15.146:9090/mtx/index.php?s=/index/buy/add.html
+2021-05-10 16:02:52,449 INFO [root] [orderApi.py (order:24] - 提交订单的data是{'goods_id': 1, 'stock': 2, 'buy_type': 'goods', 'address_id': 600, 'payment_id': 1, 'spec': ''}
+2021-05-10 16:02:52,707 INFO [root] [orderApi.py (order:26] - 提交订单的响应是<Response [200]>
+2021-05-10 16:02:52,708 INFO [root] [orderApi.py (order:32] - 提交订单提取的JUMP_URL的值是http://121.42.15.146:9090/mtx/index.php?s=/index/order/pay/id/12725.html
+2021-05-10 16:02:52,863 INFO [root] [payOrderApi.py (pay_order:20] - 支付的302跳转接口的响应是<Response [302]>
+2021-05-10 16:02:52,863 INFO [root] [payOrderApi.py (pay_order:21] - 支付的302跳转接口的响应头的location是http://121.42.15.146:9090/mtx/payment_order_deliverypayment_respond.php?out_trade_no=20210509155806636507&subject=è®¢åæ¯ä»&total_price=4200.00
+2021-05-10 16:47:18,518 INFO [root] [loginApi.py (__init__:18] - 登录的url地址是http://121.42.15.146:9090/mtx/index.php?s=/index/user/login.html
+2021-05-10 16:47:18,519 INFO [root] [loginApi.py (login:21] - 登录的data数据是{'accounts': 'yaoyao', 'pwd': ''}
+2021-05-10 16:47:18,646 INFO [root] [loginApi.py (login:23] - 登录的响应数据是<Response [200]>
+2021-05-10 16:47:18,651 INFO [root] [loginApi.py (login:21] - 登录的data数据是{'accounts': '', 'pwd': 'yaoyao'}
+2021-05-10 16:47:18,752 INFO [root] [loginApi.py (login:23] - 登录的响应数据是<Response [200]>
+2021-05-10 16:47:18,756 INFO [root] [loginApi.py (login:21] - 登录的data数据是{'accounts': 'lwx', 'pwd': 'yaoyao'}
+2021-05-10 16:47:18,870 INFO [root] [loginApi.py (login:23] - 登录的响应数据是<Response [200]>
+2021-05-10 16:47:18,876 INFO [root] [loginApi.py (login:21] - 登录的data数据是{'accounts': 'yaoyao', 'pwd': '123456'}
+2021-05-10 16:47:18,984 INFO [root] [loginApi.py (login:23] - 登录的响应数据是<Response [200]>
